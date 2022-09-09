@@ -8,6 +8,19 @@ public class Pessoa {
     private char sexo;
     private String dataNascimento;
 
+    //Método construtor padrão
+    public Pessoa() {
+
+    }
+
+    //Método construtor versão com parâmetros
+    public Pessoa(String nome, char sexo, String dataNascimento) {
+
+        this.nome = nome;
+        this.sexo = sexo;
+        this.dataNascimento = dataNascimento;
+    }
+
     //Declaração e implementação do método que irá reunir todos os dados da Pessoa
     public String mostrarDados() {
 

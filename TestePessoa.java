@@ -6,7 +6,7 @@ public class TestePessoa {
         
         //Instanciação dos objetos da classe Pessoa
         Pessoa pessoa = new Pessoa();
-        Pessoa pessoa1 = new Pessoa();
+        Pessoa pessoa1 = new Pessoa("Tiago", 'M', "01/11/1995");
 
         //Configuração dos atributos do objeto pessoa
         pessoa.setNome("Kedna");
@@ -14,9 +14,9 @@ public class TestePessoa {
         pessoa.setDataNascimento("01/11/2000");
 
         //Configuração dos atributos do objeto pessoa1
-        pessoa1.setNome("Tiago");
+        /*pessoa1.setNome("Tiago");
         pessoa1.setSexo('M');
-        pessoa1.setDataNascimento("01/11/1995");
+        pessoa1.setDataNascimento("01/11/1995");*/
 
         //Imprimindo os valores dos atributos
         /*System.out.println("Nome: " + pessoa.getNome());
